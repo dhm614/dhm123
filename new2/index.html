@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>丁浩淼 | 后端工程师 2027届 · 个人主页</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ① 顶部导航 -->
+  <header class="navbar" id="top">
+    <div class="nav-inner">
+      <a class="brand" href="#top">丁浩淼</a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#hero">首页</a>
+        <a href="#education">教育背景</a>
+        <a href="#projects">项目经历</a>
+        <a href="#skills">技能</a>
+        <a href="#contact">联系方式</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="切换导航">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ② 首屏 -->
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+      <div class="avatar" aria-hidden="true">丁</div>
+      <h1 class="hero-name">丁浩淼</h1>
+      <p class="hero-tagline">后端工程师 2027届 · 用 AI 三周做了 5 个上线项目</p>
+      <div class="hero-buttons">
+        <a class="btn btn-primary" href="#projects">查看项目</a>
+        <a class="btn btn-outline" href="#contact">联系我</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ③ 教育背景 -->
+  <section class="section" id="education">
+    <div class="container">
+      <h2 class="section-title">教育背景</h2>
+      <div class="edu-card">
+        <div class="edu-period">2023.09 — 2027.06</div>
+        <div class="edu-body">
+          <h3 class="edu-school">金陵科技学院</h3>
+          <p class="edu-major">计算机科学与技术 · 本科</p>
+          <p class="edu-desc">主修方向：Java 后端开发。系统学习数据结构、操作系统、计算机网络、数据库原理等核心课程，具备扎实的工程基础，乐于用 AI 工具加速落地。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ④ 项目经历 -->
+  <section class="section section-alt" id="projects">
+    <div class="container">
+      <h2 class="section-title">项目经历</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3 class="project-title">宠物管理系统</h3>
+          <p class="project-desc">独立完成全栈开发，借助 Codex 进行前后端编码与联调，实现宠物档案、预约、记录等核心模块的端到端流程。</p>
+          <div class="tag-list">
+            <span class="tag">Java</span>
+            <span class="tag">Spring Boot</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">Codex</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3 class="project-title">猜数字游戏</h3>
+          <p class="project-desc">课程作品。实现随机数生成、猜测判定与回合记录，练习交互逻辑与状态管理，可单人多局挑战。</p>
+          <div class="tag-list">
+            <span class="tag">JavaScript</span>
+            <span class="tag">DOM</span>
+            <span class="tag">课程作品</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3 class="project-title">记账本</h3>
+          <p class="project-desc">课程作品。支持收支录入、分类统计与按月汇总，练习数据持久化与表格渲染，界面清爽可日常使用。</p>
+          <div class="tag-list">
+            <span class="tag">JavaScript</span>
+            <span class="tag">LocalStorage</span>
+            <span class="tag">课程作品</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑤ 技能 -->
+  <section class="section" id="skills">
+    <div class="container">
+      <h2 class="section-title">技能</h2>
+      <div class="skill-cloud">
+        <span class="skill">Java</span>
+        <span class="skill">Spring Boot</span>
+        <span class="skill">MySQL</span>
+        <span class="skill">RESTful API</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">Git</span>
+        <span class="skill">AI 辅助开发</span>
+        <span class="skill">Codex</span>
+        <span class="skill">全栈开发</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑥ 联系方式 + 页脚 -->
+  <section class="section section-alt" id="contact">
+    <div class="container contact">
+      <h2 class="section-title">联系方式</h2>
+      <p class="contact-item">
+        <svg class="contact-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+        <span class="contact-label">邮箱：</span>
+        <a href="mailto:3133477401@qq.com">3133477401@qq.com</a>
+      </p>
+      <p class="contact-item">
+        <svg class="contact-icon" viewBox="0 0 16 16" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.67.58-3.24-1.15-3.24-1.15-.35-.89-.86-1.13-.86-1.13-.71-.48.05-.47.05-.47.78.05 1.19.8 1.19.8.7 1.2 1.84.85 2.29.65.07-.51.27-.85.49-1.05-2.13-.24-4.36-1.07-4.36-4.75 0-1.05.38-1.91 1-2.58-.1-.25-.43-1.24.09-2.58 0 0 .82-.26 2.68 1 .78-.22 1.62-.33 2.45-.33.83 0 1.67.11 2.45.33 1.86-1.26 2.68-1 2.68-1 .52 1.34.19 2.33.09 2.58.62.67 1 1.53 1 2.58 0 3.69-2.24 4.51-4.38 4.74.35.3.66.9.66 1.81 0 1.31-.01 2.37-.01 2.69 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+        <span class="contact-label">GitHub：</span>
+        <a href="https://github.com/dhm614" target="_blank" rel="noopener">github.com/dhm614</a>
+      </p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 丁浩淼 · 本页面由纯 HTML / CSS / JS 构建</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
