@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>张三 | 应届本科生个人主页</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ① 顶部导航 -->
+  <header class="navbar" id="top">
+    <div class="nav-inner">
+      <a class="brand" href="#top">张三</a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#hero">首页</a>
+        <a href="#education">教育背景</a>
+        <a href="#projects">项目经历</a>
+        <a href="#skills">技能</a>
+        <a href="#contact">联系方式</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="切换导航">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ② 首屏 -->
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+      <div class="avatar" aria-hidden="true">Z</div>
+      <h1 class="hero-name">张三</h1>
+      <p class="hero-tagline">应届本科毕业生 · 前端方向 · 热爱用代码实现想法</p>
+      <div class="hero-buttons">
+        <a class="btn btn-primary" href="#projects">查看项目</a>
+        <a class="btn btn-outline" href="#contact">联系我</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ③ 教育背景 -->
+  <section class="section" id="education">
+    <div class="container">
+      <h2 class="section-title">教育背景</h2>
+      <div class="edu-card">
+        <div class="edu-period">2022.09 — 2026.06</div>
+        <h3 class="edu-school">XX 大学</h3>
+        <p class="edu-major">计算机科学与技术 · 本科</p>
+        <p class="edu-desc">主修课程：数据结构、操作系统、计算机网络、数据库原理、Web 前端开发等。在校期间 GPA 3.x/4.0，曾获 X 等奖学金。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ④ 项目经历 -->
+  <section class="section section-alt" id="projects">
+    <div class="container">
+      <h2 class="section-title">项目经历</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3 class="project-title">项目名称</h3>
+          <p class="project-desc">一句话描述：这里简要说明项目做了什么、解决了什么问题。</p>
+          <div class="tag-list">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3 class="project-title">项目名称</h3>
+          <p class="project-desc">一句话描述：这里简要说明项目做了什么、解决了什么问题。</p>
+          <div class="tag-list">
+            <span class="tag">Vue</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">MySQL</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3 class="project-title">项目名称</h3>
+          <p class="project-desc">一句话描述：这里简要说明项目做了什么、解决了什么问题。</p>
+          <div class="tag-list">
+            <span class="tag">React</span>
+            <span class="tag">TypeScript</span>
+            <span class="tag">Vite</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑤ 技能 -->
+  <section class="section" id="skills">
+    <div class="container">
+      <h2 class="section-title">技能</h2>
+      <div class="skill-cloud">
+        <span class="skill">HTML5</span>
+        <span class="skill">CSS3</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">ES6+</span>
+        <span class="skill">Vue</span>
+        <span class="skill">React</span>
+        <span class="skill">Git</span>
+        <span class="skill">Webpack</span>
+        <span class="skill">Node.js</span>
+        <span class="skill">TypeScript</span>
+        <span class="skill">Sass</span>
+        <span class="skill">Responsive Design</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑥ 联系方式 + 页脚 -->
+  <section class="section section-alt" id="contact">
+    <div class="container contact">
+      <h2 class="section-title">联系方式</h2>
+      <p class="contact-item">
+        <span class="contact-label">邮箱：</span>
+        <a href="mailto:yourname@example.com">yourname@example.com</a>
+      </p>
+      <p class="contact-item">
+        <span class="contact-label">GitHub：</span>
+        <a href="https://github.com/yourname" target="_blank" rel="noopener">github.com/yourname</a>
+      </p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 张三 · 本页面由纯 HTML / CSS / JS 构建</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
