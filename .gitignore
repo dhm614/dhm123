@@ -1,5 +1,36 @@
+# ---------- 远端既有规则（第 5/6 课）
 .env
 chat_log.jsonl
+scores.txt
+
+# ---------- Python 缓存与编译产物
 __pycache__/
 *.py[cod]
-scores.txt
+*.pyc
+
+# ---------- 本机依赖（手工解压的 wheel，不入库）
+.pyvendor/
+_wheels3/
+
+# ---------- 临时目录与渲染中间产物
+.tmp/
+.edgeprof*/
+.render/
+.render9/
+提交版预览/
+robots_evidence_crop.png
+
+# ---------- 个人文件与工具脚本（不属于课程产出）
+bili/
+.skills/
+2313001010*.docx
+)
+*.js
+*.ps1
+*.bat
+git_commit.py
+verify_figures.py
+
+# ---------- 系统文件
+Thumbs.db
+Desktop.ini
