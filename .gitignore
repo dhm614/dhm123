@@ -1,13 +1,20 @@
+<<<<<<< HEAD
 # ---------- 远端既有规则（第 5/6 课）
 .env
 chat_log.jsonl
 scores.txt
 
 # ---------- Python 缓存与编译产物
+=======
+# ---------- Python 依赖与缓存（本机手工解压的 wheel，不应入库）
+.pyvendor/
+_wheels3/
+>>>>>>> 09723d9 (chore: 完善 .gitignore（排除依赖、临时产物与个人文件）)
 __pycache__/
 *.py[cod]
 *.pyc
 
+<<<<<<< HEAD
 # ---------- 本机依赖（手工解压的 wheel，不入库）
 .pyvendor/
 _wheels3/
@@ -15,6 +22,13 @@ _wheels3/
 # ---------- 临时目录与渲染中间产物
 .tmp/
 .edgeprof*/
+=======
+# ---------- 临时目录
+.tmp/
+.edgeprof*/
+
+# ---------- 渲染检查的中间产物
+>>>>>>> 09723d9 (chore: 完善 .gitignore（排除依赖、临时产物与个人文件）)
 .render/
 .render9/
 提交版预览/
